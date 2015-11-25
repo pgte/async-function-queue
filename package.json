@@ -1,0 +1,29 @@
+{
+  "name": "async-function-queue",
+  "version": "0.0.1",
+  "description": "Async Function Queue",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --harmony node_modules/istanbul/lib/cli.js cover -- lab -vl && istanbul check-coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgte/async-function-queue.git"
+  },
+  "keywords": [
+    "queue",
+    "async",
+    "function"
+  ],
+  "author": "pgte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pgte/async-function-queue/issues"
+  },
+  "homepage": "https://github.com/pgte/async-function-queue#readme",
+  "devDependencies": {
+    "code": "^2.0.1",
+    "istanbul": "^0.4.1",
+    "lab": "^7.3.0"
+  }
+}
