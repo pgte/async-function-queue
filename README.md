@@ -38,8 +38,8 @@ queue.on('entry', function() {
   console.log('starting to execute function');
 });
 
-queue.on('entry', function() {
-  console.log('starting to execute function');
+queue.on('exit', function() {
+  console.log('finished executing function');
 });
 
 queue.on('drain', function() {
