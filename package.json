@@ -1,6 +1,6 @@
 {
   "name": "async-function-queue",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Async Function Queue",
   "main": "index.js",
   "scripts": {
